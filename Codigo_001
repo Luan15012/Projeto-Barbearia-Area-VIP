@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Barbearia Estilo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    .hero {
+      background-image: url('https://images.pexels.com/photos/3993447/pexels-photo-3993447.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: 2rem auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      color: #222;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+      font-size: 1.1rem;
+    }
+
+    .slider {
+      position: relative;
+      overflow: hidden;
+      max-width: 1000px;
+      margin: 2rem auto;
+      border-radius: 10px;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%;
+      animation: slide 12s infinite;
+    }
+
+    .slides img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    @keyframes slide {
+      0% { transform: translateX(0%); }
+      33% { transform: translateX(-100%); }
+      66% { transform: translateX(-200%); }
+      100% { transform: translateX(0%); }
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Bem-vindo à Barbearia Estilo</h1>
+  </div>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Com anos de tradição, a Barbearia Estilo combina o charme clássico das antigas barbearias com a modernidade dos cortes e atendimento atuais.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <ul>
+      <li>Corte de Cabelo Masculino</li>
+      <li>Design de Barba</li>
+      <li>Tratamento Capilar</li>
+      <li>Combo Premium (Corte + Barba + Hidratação)</li>
+    </ul>
+  </section>
+
+  <!-- Galeria com Slide de Fotos -->
+  <section id="galeria">
+    <h2>Galeria de Estilos</h2>
+    <div class="slider">
+      <div class="slides">
+        <img src="https://images.pexels.com/photos/3993445/pexels-photo-3993445.jpeg" alt="Barbeiro 1">
+        <img src="https://images.pexels.com/photos/3993446/pexels-photo-3993446.jpeg" alt="Barbeiro 2">
+        <img src="https://images.pexels.com/photos/3993448/pexels-photo-3993448.jpeg" alt="Ambiente da Barbearia">
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>📍 Endereço: Rua Exemplo, 123 - Centro</p>
+    <p>📞 Telefone: (11) 1234-5678</p>
+    <p>📱 Instagram: <a href="https://instagram.com/barbeariaestilo" target="_blank">@barbeariaestilo</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Barbearia Estilo. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
