@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Hair</title>
+    <link rel="shortcut icon" href="assests/img/favicon.png" type="image/x-icon">
+    <!-- icon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- estilo css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="l-header" id="header">
+        <div class="navbar container flex">
+            <div class="brand">
+                <a href="#"><img src="C:\Users\drido\OneDrive\Área de Trabalho\Nova pasta\logo.jpeg" alt="" style="width: 110px; height: auto;"></a>
+            </div>
+            <div class="nav" id="nav">
+                <ul class="nav__menu">
+                    <li class="nav__item"><a href="#" class="nav__link active-link">home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">nossa história</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">serviços</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">galeria</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">contato</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="hero__img">
+                        <img src="assests/img/home-img.png" alt="">
+                    </div>
+                    <div class="hero__content">
+                        <h1>áreavip barbershop <br>
+                            <span>editando</span></h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad explicabo, dolorum mollitia fugit illo numquam</p>
+                        <a href="https://wa.me/5511977195783" target="_blank" class="btn btn__outline"><i class='bx bxl-whatsapp'></i>agende seu horário</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section__title">
+                        <h1>Nossa história</h1>
+                        <span>Studio Hair</span>
+                    </div>
+                    <div class="about__detail">
+                        <div class="about__detail__content">
+                            <div class="about__img">
+                                <img src="C:\Users\drido\OneDrive\Área de Trabalho\Nova pasta\logo.jpeg" alt="" style="width: 400px; height: auto;">
+                            </div>
+                            <div class="about__descripion">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                     Velit possimus a sint.</p>
+                                <p>Obcaecati porro accusamus iusto rem aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Velit possimus a sint.</p>
+                                <p>Eligendi nostrum architecto 
+                                    quibusdam. Neque odio enim quasi ad culpa similique 
+                                    quas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services section" id="services">
+            <div class="services__content">
+                <div class="row">
+                    <div class="section__title">
+                        <h1>Serviços</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="services__content__descripion grid container">
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/manicure.png" alt="">
+                            <p>manicure</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/pedicure.png" alt="">
+                            <p>pedicure</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/maquiagem.png" alt="">
+                            <p>maquiagem</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/pentado.png" alt="">
+                            <p>penteado</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/corte.png" alt="">
+                            <p>corte de cabelo</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/sobrancelha.png" alt="">
+                            <p>design de sobrancelha</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/depilacao.png" alt="">
+                            <p>depilação com cera</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/limpeza.png" alt="">
+                            <p>limpeza de pele</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="gallery section" id="gallery">
+            <div class="gallery__content">
+                <div class="row">
+                    <div class="section__title">
+                        <h1>Galeria</h1>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="gallery__list__img row container">
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto1.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto2.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto3.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto4.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto5.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto6.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto7.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto8.png" alt="">
+                    </div>
+                </div>
+                <button class="btn">ver mais</button>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="footer" id="contact">
+        <div class="footer__list section container grid">
+            <div class="footer__data">
+                <h1><a href="#"><img src="assests/img/logo.svg" alt=""></a></h1>
+                <div class="footer__data-social">
+                    <a href=""><i class='bx bxl-facebook social__icon'></i></a>
+                    <a href="https://www.instagram.com/phf.barber?igsh=MTNzNnI1c2d4dWMyNw==" target="_blank"><i class='bx bxl-instagram social__icon' ></i></a>
+                    <a href="https://wa.me/5511977195783" target="_blank"><i class='bx bxl-whatsapp social__icon' ></i></a>
+                </div>
+            </div>
+            <div class="footer__data">
+                <h2>nosso endereço</h2>
+                <p>R. Mário Gonçalves do santos, 284<br> São Paulo - SP</p>
+            </div>
+            <div class="footer__data">
+                <h2>nosso horario</h2>
+                <p>Terça á sexta<br>das 13:30 as 20:00</p>
+                <p>Sábado<br>das 10:00 as 20:00</p>
+            </div>
+            <div class="footer__data">
+                <h2>Contato</h2>
+                <p>(11) 95653-1069</p>
+                <p>(11) 4141-4141</p>
+            </div>
+        </div>
+       
+    </footer>
+    <!-- javascript -->
+    <script src="estilo.js"></script>
+</body>
+
+</html>
